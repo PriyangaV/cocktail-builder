@@ -1,5 +1,5 @@
 <template>
-    <div class="generator">
+    <div class="builder">
         <Loader v-if="status === 'loading'"/>
         <div class="cocktail" v-if="drink && status !== 'loading'">
             <div class="cocktail__details">
