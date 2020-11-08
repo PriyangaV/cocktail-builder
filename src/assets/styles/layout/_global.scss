@@ -1,0 +1,49 @@
+body {
+  color: $text-color;
+  font-family: $secondary-font;
+}
+
+.hero {
+  font-family: $primary-font;
+  overflow: hidden;
+  font-weight: 300;
+  background-color: $secondary-color;
+  color: $text-color;
+  background: linear-gradient(150deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3)),
+    url(../../assets/images/background.jpeg) top center/cover no-repeat fixed;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  // z-index: -1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // &:after {
+  //   z-index: -1;
+  //   content: "";
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   width: 100%;
+  //   height: 100%;
+  //   background-color: rgba(0, 0, 0, 0.9);
+  // }
+
+  .banner {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    h1 {
+      text-transform: uppercase;
+      margin-bottom: 1rem;
+      letter-spacing: 0.2rem;
+      font-weight: bold;
+    }
+    h3 {
+      text-transform: capitalize;
+      color: $text-color;
+      opacity: 0.8;
+      margin-bottom: 1rem;
+    }
+  }
+}

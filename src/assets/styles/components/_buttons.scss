@@ -1,0 +1,43 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  font-size: 1rem;
+  padding: 1rem 1.25rem;
+  transition: $transition;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  outline: none;
+  font-family: $primary-font;
+  font-weight: bolder;
+  margin: 0 auto;
+  width: auto;
+  max-width: 80%;
+  border-radius: 5px;
+
+  &:hover {
+    color: $primary-color;
+  }
+
+  &--primary {
+    border: 1px solid $primary-color;
+    background-color: $text-color;
+    color: $primary-color;
+    padding: 1rem 1.25rem;
+  }
+
+  &--secondary {
+    border: 1px solid $primary-color;
+    background-color: $text-color;
+    color: $primary-color;
+    padding: 1rem 1.25rem;
+  }
+
+  &--inline {
+    display: inline-block;
+  }
+}

@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap&family=Quicksand:wght@300;500&display=swap");
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 200;
+  font-family: $secondary-font;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+  font-family: $primary-font;
+  text-transform: uppercase;
+  font-weight: 100;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 300;
+  strong {
+    font-weight: 600;
+  }
+}

@@ -1,0 +1,41 @@
+@keyframes spin {
+  0% {
+    opacity: 0.75;
+    transform: rotate(0deg) scale(1.75);
+  }
+  20% {
+    opacity: 1;
+    transform: rotate(360deg) scale(1.25);
+  }
+  40% {
+    opacity: 0.25;
+    transform: rotate(720deg) scale(1.5);
+  }
+  60% {
+    opacity: 0.5;
+    transform: rotate(1080deg) scale(2);
+  }
+  80% {
+    opacity: 0.75;
+    transform: rotate(1440deg) scale(0.25);
+  }
+  100% {
+    opacity: 0.15;
+    transform: rotate(1800deg) scale(1);
+  }
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  & svg {
+    color: darken($text-color, 15%);
+    animation: spin 3s linear infinite forwards;
+  }
+}
