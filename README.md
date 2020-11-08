@@ -1,4 +1,4 @@
-# drink-name-generator
+# cocktail-builder
 
 ## Project setup
 ```
